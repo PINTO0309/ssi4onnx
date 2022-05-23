@@ -1,2 +1,2 @@
 # ssi4onnx
-Simple shape estimation tool for ONNX.
+**S**imple **S**hape **I**nference tool for **ONNX**.
