@@ -87,8 +87,7 @@ shape_inference(
 
 ## 4. CLI Execution
 ```bash
-$ ssi4onnx \
---input_onnx_file_path nanodet_320x320.onnx
+$ ssi4onnx --input_onnx_file_path nanodet_320x320.onnx
 ```
 
 ## 5. In-script Execution
