@@ -108,18 +108,21 @@ def shape_inference(
 def main():
     parser = ArgumentParser()
     parser.add_argument(
+        '-if',
         '--input_onnx_file_path',
         type=str,
         required=True,
         help='Input onnx file path.'
     )
     parser.add_argument(
+        '-of',
         '--output_onnx_file_path',
         type=str,
         default='',
         help='Output onnx file path.'
     )
     parser.add_argument(
+        '-n',
         '--non_verbose',
         action='store_true',
         help='Do not show all information logs. Only error logs are displayed.'

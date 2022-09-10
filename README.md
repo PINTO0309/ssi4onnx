@@ -26,26 +26,26 @@ $ pip install -U onnx \
 https://github.com/PINTO0309/simple-onnx-processing-tools#docker
 
 ## 2. CLI Usage
-```bash
+```
 $ ssi4onnx -h
 
 usage:
     ssi4onnx [-h]
-    --input_onnx_file_path INPUT_ONNX_FILE_PATH
-    [--output_onnx_file_path OUTPUT_ONNX_FILE_PATH]
-    [--non_verbose]
+    -if INPUT_ONNX_FILE_PATH
+    [-of OUTPUT_ONNX_FILE_PATH]
+    [-n]
 
 optional arguments:
   -h, --help
         show this help message and exit.
 
-  --input_onnx_file_path INPUT_ONNX_FILE_PATH
+  -if INPUT_ONNX_FILE_PATH, --input_onnx_file_path INPUT_ONNX_FILE_PATH
         Input onnx file path.
 
-  --output_onnx_file_path OUTPUT_ONNX_FILE_PATH
+  -of OUTPUT_ONNX_FILE_PATH, --output_onnx_file_path OUTPUT_ONNX_FILE_PATH
         Output onnx file path.
 
-  --non_verbose
+  -n, --non_verbose
         Do not show all information logs. Only error logs are displayed.
 ```
 
